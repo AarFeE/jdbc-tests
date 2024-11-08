@@ -57,4 +57,15 @@ public class CoderEntity {
     public void setClan(String clan) {
         this.clan = clan;
     }
+
+    @Override
+    public String toString() {
+        return "CoderEntity{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", technologies=" + technologies +
+                ", experience=" + experience +
+                ", clan='" + clan + '\'' +
+                '}';
+    }
 }
